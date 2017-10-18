@@ -1,0 +1,15 @@
+{
+    "name": "MyModule Name",
+    "description": "What your module does.",
+    "author": "Your Name",
+
+    "require": "MyClassModule = require 'MyClassModule'; MyFunctionsModule = require 'MyFunctionsModule'",
+		"install": [
+			"MyClassModule.coffee",
+      "MyFunctionsModule.coffee",
+			"README.md"
+		],
+    "example": "example.coffee",
+
+    "thumb": "thumb.png"
+}

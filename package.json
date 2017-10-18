@@ -1,0 +1,32 @@
+{
+  "name": "package-name",
+  "version": "0.0.0",
+  "description": "What your module does.",
+  "homepage": "https://github.com/link/to/module",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/link/to/module.git"
+  },
+  "bugs": {
+    "url": "https://github.com/link/to/module/issues"
+  },
+  "main": "MyClassModule.coffee",
+  "author": "Your Name",
+  "license": "MIT",
+  "keywords": [
+    "framerjs",
+    "framer",
+    "coffeescript",
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "coffeeify": "^2.1.0"
+  },
+  "browserify": {
+    "transform": [
+      "coffeeify"
+    ]
+  }
+}

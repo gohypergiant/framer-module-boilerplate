@@ -1,0 +1,6 @@
+MyClassModule = require "MyClassModule"
+MyFunctionsModule = require "MyFunctionsModule"
+
+instance = new MyClassModule
+
+MyFunctionsModule.utilityFunction()
